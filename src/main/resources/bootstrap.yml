@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: eureka
+  cloud:
+    config:
+      uri: ${SPRING_CLOUD_CONFIG_PROTOCOL}://${SPRING_CLOUD_CONFIG_USER}:${SPRING_CLOUD_CONFIG_PASSWORD}@${SPRING_CLOUD_CONFIG_URI}:${SPRING_CLOUD_CONFIG_PORT}
